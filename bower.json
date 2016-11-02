@@ -1,0 +1,22 @@
+{
+  "name": "dev-awesome",
+  "authors": [
+    "Federico Scarpa <fedescarpa@gmail.com>"
+  ],
+  "description": "Font and CSS for developers icons",
+  "main": [
+    "css/dev-awesome.css",
+    "sass/dev-awesome.sass",
+    "scss/dev-awesome.scss",
+    "less/dev-awesome.less"
+  ],
+  "license": "GPL-3.0",
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    "src/",
+    "node_modules/",
+    "Gruntfile.js",
+    "package.json"
+  ]
+}
