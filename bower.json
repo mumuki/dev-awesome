@@ -6,7 +6,6 @@
   "description": "Font and CSS for developers icons",
   "main": [
     "css/dev-awesome.css",
-    "sass/dev-awesome.sass",
     "scss/dev-awesome.scss",
     "less/dev-awesome.less"
   ],

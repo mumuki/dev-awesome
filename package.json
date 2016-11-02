@@ -2,11 +2,12 @@
   "name": "dev-awesome",
   "version": "0.0.1",
   "description": "Font and CSS for developers icons",
-  "main": "index.js",
   "dependencies": {
-    "bower": "^1.7.9"
+    "bower": "1.7.9",
+    "grunt": "1.0.1",
+    "grunt-contrib-clean": "1.0.0",
+    "grunt-webfont": "1.6.0"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
