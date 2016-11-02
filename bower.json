@@ -14,7 +14,7 @@
   "ignore": [
     ".editorconfig",
     ".gitignore",
-    "src/",
+    "svg/",
     "node_modules/",
     "Gruntfile.js",
     "package.json"
