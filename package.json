@@ -1,0 +1,14 @@
+{
+  "name": "dev-awesome",
+  "version": "0.0.1",
+  "description": "Font and CSS for developers icons",
+  "main": "index.js",
+  "dependencies": {
+    "bower": "^1.7.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "GPL-3.0"
+}
