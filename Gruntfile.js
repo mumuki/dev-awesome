@@ -10,8 +10,9 @@ module.exports = function (grunt) {
         destLess: 'dist/less',
         options: {
           htmlDemo: true,
+          htmlDemoFilename: 'index',
           htmlDemoTemplate: 'template/dev-awesome.html',
-          destHtml: 'dist',
+          destHtml: './',
           types:['eot','svg','ttf','woff','woff2'],
           font: 'dev-awesome',
           stylesheets: ['css', 'scss', 'less'],
