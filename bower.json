@@ -11,12 +11,15 @@
   ],
   "license": "GPL-3.0",
   "ignore": [
+    "node_modules/",
+    "svg/",
+    "template/",
     ".editorconfig",
     ".gitignore",
-    "svg/",
-    "node_modules/",
     "Gruntfile.js",
-    "package.json",
-    "README.md"
+    "README.md",
+    "bower.json",
+    "index.html",
+    "package.json"
   ]
 }
