@@ -16,6 +16,7 @@
     "svg/",
     "node_modules/",
     "Gruntfile.js",
-    "package.json"
+    "package.json",
+    "README.md"
   ]
 }
