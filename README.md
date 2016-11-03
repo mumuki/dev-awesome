@@ -1,6 +1,7 @@
 # DevAwesome
 
-Font and CSS for developers icons
+DevAwesome brings an awesome set of programming language icons.
+This project contains glyphs derived from [DevIcons](http://vorillaz.github.io/devicons) and is inspired by [FontAwesome](http://fontawesome.io).
 
 ## Install it
 
