@@ -16,6 +16,7 @@ module.exports = function (grunt) {
           types:['eot','svg','ttf','woff','woff2'],
           font: 'dev-awesome',
           stylesheets: ['css', 'scss', 'less'],
+          template: 'template/dev-awesome.css',
           templateOptions: {
             baseClass: 'da',
             classPrefix: 'da-'
