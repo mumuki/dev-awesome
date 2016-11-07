@@ -5,9 +5,9 @@
   ],
   "description": "Font and CSS for developers icons",
   "main": [
-    "css/dev-awesome.css",
-    "scss/dev-awesome.scss",
-    "less/dev-awesome.less"
+    "dist/css/dev-awesome.css",
+    "dist/scss/dev-awesome.scss",
+    "dist/less/dev-awesome.less"
   ],
   "license": "GPL-3.0",
   "ignore": [
