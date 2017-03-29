@@ -29,7 +29,19 @@ bower install --save dev-awesome
 
 You need to install:
 
-* Grunt
+* Last version of `FontForge`
+
+```bash
+sudo add-apt-repository ppa:fontforge/fontforge
+sudo apt-get update
+sudo apt-get install fontforge
+```
+
+* `Grunt`
+
+```bash
+npm install -g grunt-cli
+```
 
 #### Steps
 
