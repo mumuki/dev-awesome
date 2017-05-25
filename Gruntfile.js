@@ -9,6 +9,7 @@ module.exports = function (grunt) {
         destScss: 'dist/scss',
         destLess: 'dist/less',
         options: {
+          codepointsFile: './codepoints.json',
           htmlDemo: true,
           htmlDemoFilename: 'index',
           htmlDemoTemplate: 'template/dev-awesome.html',
