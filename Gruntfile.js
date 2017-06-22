@@ -1,6 +1,13 @@
 module.exports = function (grunt) {
 
   grunt.initConfig({
+    copy: {
+      main: {
+        expand: true,
+        src: 'svg/colored/*',
+        dest: 'dist/fonts/dev-awesome/',
+      }
+    },
     webfont: {
       icons: {
         src: 'svg/black/*.svg',
@@ -30,9 +37,10 @@ module.exports = function (grunt) {
     }
   });
 
+  grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-webfont');
 
-  grunt.registerTask('build', ['clean:dist', 'webfont']);
+  grunt.registerTask('build', ['clean:dist', 'webfont', 'copy']);
 
 };
