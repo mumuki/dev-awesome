@@ -59,9 +59,9 @@
     <header>
       <h1>DevAwesome</h1>
       <div class="github-buttons">
-        <a class="github-button" href="https://github.com/mumuki" data-style="mega" aria-label="Follow @mumuki on GitHub">Follow @mumuki</a>
-        <a class="github-button" href="https://github.com/mumuki/dev-awesome/fork" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork mumuki/dev-awesome on GitHub">Fork</a>
-        <a class="github-button" href="https://github.com/mumuki/dev-awesome" data-icon="octicon-star" data-style="mega" aria-label="Star mumuki/dev-awesome on GitHub">Star</a>
+        <a class="github-button" href="https://github.com/mumuki" data-size="large" aria-label="Follow @mumuki on GitHub">Follow @mumuki</a>
+        <a class="github-button" href="https://github.com/mumuki/dev-awesome/fork" data-icon="octicon-repo-forked" data-size="large" aria-label="Fork mumuki/dev-awesome on GitHub">Fork</a>
+        <a class="github-button" href="https://github.com/mumuki/dev-awesome" data-icon="octicon-star" data-size="large" aria-label="Star mumuki/dev-awesome on GitHub">Star</a>
       </div>
     </header>
     <hr>
@@ -82,17 +82,31 @@
       <%}%>
     </div>
 
+    <h2>Colored</h2>
+    <hr>
+    <div class="row dev-awesome-icons" id="dev-awesome-icons-colored">
+      <%for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) {%>
+      <%  var glyph = glyphs[glyphIdx]%>
+          <div class="ol-lg-2 col-md-3 col-sm-4 dev-awesome-icons-item" data-name="<%= glyph %>-c">
+            <i class="<%= baseClass %> <%= classPrefix %><%= glyph %>-c"></i>
+            <%= classPrefix %><%= glyph %>-c
+          </div>
+      <%}%>
+    </div>
+
     <footer>
       Powered by: Mumuki
     </footer>
 
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        document.getElementById('dev-awesome-icons').onclick = function(e) {
+        var call = function(e) {
           e = e || window.event;
           var name = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
           document.getElementById('name').innerHTML = name;
         }
+        document.getElementById('dev-awesome-icons').onclick = call;
+        document.getElementById('dev-awesome-icons-colored').onclick = call;
       });
     </script>
   </body>
