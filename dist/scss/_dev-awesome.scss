@@ -1,12 +1,12 @@
 
 @font-face {
   font-family:"dev-awesome";
-  src:url("../fonts/dev-awesome.eot?44ee561dffd34651e60385fcb2ffcfc0");
+  src:url("../fonts/dev-awesome.eot?a82a56d0bd89beb242ae439cc8bd4261");
   src:url("../fonts/dev-awesome.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/dev-awesome.woff2?44ee561dffd34651e60385fcb2ffcfc0") format("woff2"),
-		url("../fonts/dev-awesome.woff?44ee561dffd34651e60385fcb2ffcfc0") format("woff"),
-		url("../fonts/dev-awesome.ttf?44ee561dffd34651e60385fcb2ffcfc0") format("truetype"),
-		url("../fonts/dev-awesome.svg?44ee561dffd34651e60385fcb2ffcfc0#dev-awesome") format("svg");
+		url("../fonts/dev-awesome.woff2?a82a56d0bd89beb242ae439cc8bd4261") format("woff2"),
+		url("../fonts/dev-awesome.woff?a82a56d0bd89beb242ae439cc8bd4261") format("woff"),
+		url("../fonts/dev-awesome.ttf?a82a56d0bd89beb242ae439cc8bd4261") format("truetype"),
+		url("../fonts/dev-awesome.svg?a82a56d0bd89beb242ae439cc8bd4261#dev-awesome") format("svg");
   font-weight:normal;
   font-style:normal;
 }
@@ -28,6 +28,11 @@
 
 
 // Icons
+
+
+.da-bash:before {
+  content:"\f115";
+}
 
 
 .da-c:before {
