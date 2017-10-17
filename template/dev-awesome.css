@@ -44,7 +44,7 @@
   &:before {
     content: "\2001";
     background-size: 100% 100%;
-    background-image: url("./dist/fonts/dev-awesome/svg/colored/<%= glyphs[glyphIdx] %>.svg");
+    background-image: url("../fonts/dev-awesome/svg/colored/<%= glyphs[glyphIdx] %>.svg");
   }<% if (ie7) {%>
   *zoom: expression( this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#x<%= codepoints[glyphIdx] %>;');
   <% } %>
@@ -60,5 +60,5 @@
 .<%= classPrefix %><%= glyphs[glyphIdx] %>-c:before {
   content: "\2001";
   background-size: 100% 100%;
-  background-image: url("./dist/fonts/dev-awesome/svg/colored/<%= glyphs[glyphIdx] %>.svg");
+  background-image: url("../fonts/dev-awesome/svg/colored/<%= glyphs[glyphIdx] %>.svg");
 }<% } } } %>
