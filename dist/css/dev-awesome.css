@@ -1,12 +1,12 @@
 
 @font-face {
   font-family:"dev-awesome";
-  src:url("../fonts/dev-awesome.eot?eccb2d282e5fbf4bf5d62aa713fb1691");
+  src:url("../fonts/dev-awesome.eot?6685de95b0a2a9e7b8e51aef7a1fe8f0");
   src:url("../fonts/dev-awesome.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/dev-awesome.woff2?eccb2d282e5fbf4bf5d62aa713fb1691") format("woff2"),
-		url("../fonts/dev-awesome.woff?eccb2d282e5fbf4bf5d62aa713fb1691") format("woff"),
-		url("../fonts/dev-awesome.ttf?eccb2d282e5fbf4bf5d62aa713fb1691") format("truetype"),
-		url("../fonts/dev-awesome.svg?eccb2d282e5fbf4bf5d62aa713fb1691#dev-awesome") format("svg");
+		url("../fonts/dev-awesome.woff2?6685de95b0a2a9e7b8e51aef7a1fe8f0") format("woff2"),
+		url("../fonts/dev-awesome.woff?6685de95b0a2a9e7b8e51aef7a1fe8f0") format("woff"),
+		url("../fonts/dev-awesome.ttf?6685de95b0a2a9e7b8e51aef7a1fe8f0") format("truetype"),
+		url("../fonts/dev-awesome.svg?6685de95b0a2a9e7b8e51aef7a1fe8f0#dev-awesome") format("svg");
   font-weight:normal;
   font-style:normal;
 }
