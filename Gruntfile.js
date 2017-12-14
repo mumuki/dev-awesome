@@ -45,7 +45,7 @@ module.exports = function (grunt) {
             },
             {
               match: /\/\/ <<<DEV_AWESOME_PATH>>>/,
-              replacement: '$da-font-path: "../fonts";'
+              replacement: '$da-font-path: "../fonts" !default;'
             }
           ]
         },
