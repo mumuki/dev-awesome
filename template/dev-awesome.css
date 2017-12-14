@@ -1,3 +1,5 @@
+/*<<<DEV_AWESOME_PATH>>>*/
+
 <% if (fontfaceStyles) { %>
 <% if (fontSrc1 && embed.length) { %>
 @font-face {

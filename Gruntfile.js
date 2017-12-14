@@ -34,13 +34,33 @@ module.exports = function (grunt) {
     },
     clean: {
       dist: ['dist'],
+    },
+    replace: {
+      dist: {
+        options: {
+          patterns: [
+            {
+              match: /\.\.\/fonts\/dev-awesome/g,
+              replacement: '#{$da-font-path}/dev-awesome',
+            },
+            {
+              match: /\/\/ <<<DEV_AWESOME_PATH>>>/,
+              replacement: '$da-font-path: "../fonts";'
+            }
+          ]
+        },
+        files: [
+          { src: ['dist/scss/_dev-awesome.scss'], dest: 'dist/scss/_dev-awesome.scss'}
+        ]
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-webfont');
+  grunt.loadNpmTasks('grunt-replace');
 
-  grunt.registerTask('build', ['clean:dist', 'webfont', 'copy']);
+  grunt.registerTask('build', ['clean:dist', 'webfont', 'copy', 'replace']);
 
 };
