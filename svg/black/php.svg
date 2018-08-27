@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 32 32"
+   version="1.1"
+   id="svg7473"
+   height="32"
+   width="32"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="php.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     id="namedview41"
+     showgrid="false"
+     inkscape:zoom="20.85965"
+     inkscape:cx="11.836596"
+     inkscape:cy="17.856612"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7473" />
+  <defs
+     id="defs7475">
+    <clipPath
+       id="clipPath3444"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3446"
+         d="M 11.52,162 C 11.52,81.677 135.307,16.561 288,16.561 l 0,0 c 152.693,0 276.481,65.116 276.481,145.439 l 0,0 c 0,80.322 -123.788,145.439 -276.481,145.439 l 0,0 C 135.307,307.439 11.52,242.322 11.52,162" />
+    </clipPath>
+    <radialGradient
+       spreadMethod="pad"
+       r="1"
+       id="radialGradient3452"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(20.226961,0,0,20.226961,9.8448264,10.745889)"
+       fy="0"
+       fx="0"
+       cy="0"
+       cx="0">
+      <stop
+         style="stop-opacity:1;stop-color:#aeb2d5"
+         offset="0"
+         id="stop3454" />
+      <stop
+         style="stop-opacity:1;stop-color:#aeb2d5"
+         offset="0.3"
+         id="stop3456" />
+      <stop
+         style="stop-opacity:1;stop-color:#484c89"
+         offset="0.75"
+         id="stop3458" />
+      <stop
+         style="stop-opacity:1;stop-color:#484c89"
+         offset="1"
+         id="stop3460" />
+    </radialGradient>
+    <clipPath
+       id="clipPath3468"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3470"
+         d="M 0,324 576,324 576,0 0,0 0,324 Z" />
+    </clipPath>
+    <clipPath
+       id="clipPath3480"
+       clipPathUnits="userSpaceOnUse">
+      <path
+         id="path3482"
+         d="M 0,324 576,324 576,0 0,0 0,324 Z" />
+    </clipPath>
+  </defs>
+  <metadata
+     id="metadata7478">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g4288">
+    <g
+       id="g4280">
+      <g
+         id="g4273">
+        <g
+           id="g4267">
+          <path
+             style="fill:#000000;stroke:none"
+             d="M 16 7.8964844 C 7.4930502 7.8964844 0.59570312 11.525039 0.59570312 16 C 0.59570312 20.475017 7.4930502 24.103516 16 24.103516 C 24.50695 24.103516 31.404297 20.475017 31.404297 16 C 31.404297 11.525039 24.50695 7.8964844 16 7.8964844 z M 16 8.4980469 C 24.174679 8.4980469 30.800781 11.857254 30.800781 16 C 30.800781 20.142802 24.174679 23.501953 16 23.501953 C 7.825321 23.501953 1.1972656 20.142802 1.1972656 16 C 1.1972656 11.857254 7.825321 8.4980469 16 8.4980469 z "
+             id="path3462" />
+          <path
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="M 7.0292969 12.417969 L 5.4511719 20.537109 L 7.2207031 20.537109 L 7.640625 18.378906 L 9.15625 18.378906 C 9.8248032 18.378906 10.374867 18.308644 10.806641 18.167969 C 11.238415 18.027685 11.629203 17.791481 11.982422 17.460938 C 12.278814 17.188447 12.51944 16.889196 12.703125 16.560547 C 12.886587 16.23212 13.0167 15.869164 13.09375 15.472656 C 13.280945 14.510107 13.139079 13.759783 12.669922 13.222656 C 12.200709 12.685529 11.454918 12.417969 10.431641 12.417969 L 7.0292969 12.417969 z M 8.5507812 13.699219 L 9.7617188 13.699219 C 10.433726 13.699219 10.881504 13.822223 11.105469 14.070312 C 11.329161 14.318402 11.382677 14.744175 11.265625 15.347656 C 11.143279 15.976207 10.90769 16.424601 10.558594 16.693359 C 10.209553 16.962062 9.6780228 17.097656 8.9648438 17.097656 L 7.8886719 17.097656 L 8.5507812 13.699219 z "
+             id="path3486" />
+          <path
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="M 14.560547 10.257812 L 12.982422 18.378906 L 14.736328 18.378906 L 15.640625 13.726562 L 17.042969 13.726562 C 17.491958 13.726562 17.785828 13.800577 17.923828 13.949219 C 18.061768 14.09786 18.091169 14.376447 18.011719 14.785156 L 17.314453 18.378906 L 19.097656 18.378906 L 19.830078 14.599609 C 19.979333 13.83094 19.867583 13.274832 19.494141 12.931641 C 19.120698 12.588673 18.442704 12.417969 17.458984 12.417969 L 15.896484 12.417969 L 16.314453 10.257812 L 14.560547 10.257812 z "
+             id="path3494" />
+          <path
+             style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none"
+             d="M 20.835938 12.417969 L 19.257812 20.537109 L 21.027344 20.537109 L 21.447266 18.378906 L 22.962891 18.378906 C 23.631444 18.378906 24.181507 18.308644 24.613281 18.167969 C 25.045055 18.027685 25.435844 17.791481 25.789062 17.460938 C 26.085455 17.188447 26.326081 16.889196 26.509766 16.560547 C 26.693228 16.23212 26.823341 15.869164 26.900391 15.472656 C 27.087585 14.510107 26.945775 13.759783 26.476562 13.222656 C 26.00735 12.685529 25.261557 12.417969 24.238281 12.417969 L 20.835938 12.417969 z M 22.355469 13.699219 L 23.568359 13.699219 C 24.240367 13.699219 24.688144 13.822223 24.912109 14.070312 C 25.13585 14.318402 25.189375 14.744175 25.072266 15.347656 C 24.949921 15.976207 24.714386 16.424601 24.365234 16.693359 C 24.016193 16.962062 23.484663 17.097656 22.771484 17.097656 L 21.695312 17.097656 L 22.355469 13.699219 z "
+             id="path3502" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
