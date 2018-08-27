@@ -1,6 +1,6 @@
 {
   "name": "dev-awesome",
-  "version": "0.4.2",
+  "version": "0.7.0",
   "description": "Font and CSS for developers icons",
   "dependencies": {
     "bower": "1.7.9",
