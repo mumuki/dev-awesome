@@ -3,12 +3,12 @@
   "version": "0.7.0",
   "description": "Font and CSS for developers icons",
   "dependencies": {
-    "bower": "1.7.9",
-    "grunt": "1.0.1",
+    "bower": "^1.8.8",
+    "grunt": "^1.0.4",
     "grunt-contrib-clean": "1.0.0",
     "grunt-contrib-copy": "1.0.0",
     "grunt-replace": "1.0.1",
-    "grunt-webfont": "1.6.0"
+    "grunt-webfont": "^1.7.2"
   },
   "scripts": {
     "build": "npm install && node_modules/.bin/grunt build",
