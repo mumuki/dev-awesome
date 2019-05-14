@@ -1,5 +1,7 @@
 module.exports = function (grunt) {
 
+  var loader = require('grunt-loadnpmtasks')(grunt); 
+
   grunt.initConfig({
     copy: {
       main: {
@@ -56,10 +58,10 @@ module.exports = function (grunt) {
     }
   });
 
-  grunt.loadNpmTasks('grunt-contrib-copy');
-  grunt.loadNpmTasks('grunt-contrib-clean');
-  grunt.loadNpmTasks('grunt-webfont');
-  grunt.loadNpmTasks('grunt-replace');
+  loader.loadNpmTasks('grunt-contrib-copy');
+  loader.loadNpmTasks('grunt-contrib-clean');
+  loader.loadNpmTasks('grunt-webfont');
+  loader.loadNpmTasks('grunt-replace');
 
   grunt.registerTask('build', ['clean:dist', 'webfont', 'copy', 'replace']);
 
