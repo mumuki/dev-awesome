@@ -1,78 +1,20 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32"
-   height="32"
-   id="svg4166"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   viewBox="0 0 32 32"
-   sodipodi:docname="mumuki.svg">
-  <defs
-     id="defs4168">
-    <linearGradient
-       id="linearGradient6722-5-7-9-8-3-3-8-7"
-       gradientTransform="matrix(110.25023,0,0,110.25023,94020.438,14788.778)">
-      <stop
-         offset="0"
-         style="stop-color:#04242f;stop-opacity:1;"
-         id="stop4007-9" />
-      <stop
-         offset="1"
-         style="stop-color:#09485f;stop-opacity:1;"
-         id="stop4005-5" />
-    </linearGradient>
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="11.197802"
-     inkscape:cx="24.419255"
-     inkscape:cy="15.115659"
-     inkscape:current-layer="layer1"
-     showgrid="true"
-     inkscape:grid-bbox="true"
-     inkscape:document-units="px"
-     inkscape:window-width="1366"
-     inkscape:window-height="717"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="1" />
-  <metadata
-     id="metadata4171">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     id="layer1"
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer">
-    <g
-       style="font-style:normal;font-weight:normal;font-size:37.52394104px;line-height:125%;font-family:sans-serif;letter-spacing:11.1446104px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       id="text4136">
-      <path
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:AhahaMojimoji;-inkscape-font-specification:AhahaMojimoji;fill:#000000;fill-opacity:1"
-         d="M 15.150391 0.33789062 C 14.750135 0.32538264 14.349474 0.46426958 13.949219 0.75195312 C 11.972958 2.2028789 10.070306 4.8163399 8.2441406 8.59375 C 6.4179755 12.346144 5.0045447 16.161588 4.0039062 20.039062 C 3.0032678 23.89152 2.4918128 27.080809 2.4667969 29.607422 C 2.4667969 30.583044 2.5916373 31.183059 2.8417969 31.408203 C 3.1419884 31.633346 3.441996 31.709814 3.7421875 31.634766 C 4.042379 31.584734 4.2920598 31.42166 4.4921875 31.146484 C 5.0425386 30.345974 5.7553008 28.781563 6.6308594 26.455078 C 6.7559392 26.104855 6.9190129 25.917594 7.1191406 25.892578 C 12.747732 24.89194 17.825627 24.179178 22.353516 23.753906 L 24.679688 23.529297 C 24.879815 23.479265 25.030795 23.553778 25.130859 23.753906 C 25.280955 24.254226 25.405795 24.616654 25.505859 24.841797 C 25.680971 25.217036 25.918559 25.567371 26.21875 25.892578 C 26.518941 26.217786 26.869276 26.467467 27.269531 26.642578 C 27.669787 26.792674 28.044307 26.65574 28.394531 26.230469 C 29.01993 25.530022 29.384311 24.517252 29.484375 23.191406 C 29.584439 21.840544 29.534112 20.614375 29.333984 19.513672 C 29.133857 18.41297 28.87013 17.349873 28.544922 16.324219 C 27.919523 14.347958 27.170481 12.97276 26.294922 12.197266 C 25.744571 11.696946 25.106322 11.495639 24.380859 11.595703 C 23.680413 11.695767 23.179098 12.108522 22.878906 12.833984 C 22.803856 13.034112 22.753529 13.259606 22.728516 13.509766 L 22.728516 14.148438 C 22.75353 14.298533 22.791764 14.53612 22.841797 14.861328 C 22.916845 15.186535 22.955078 15.397983 22.955078 15.498047 C 23.055142 16.048398 23.254496 16.84972 23.554688 17.900391 C 23.854879 18.951061 24.054233 19.702056 24.154297 20.152344 C 24.229345 20.452536 24.166924 20.601562 23.966797 20.601562 L 22.091797 20.751953 C 17.588924 21.027129 13.03653 21.689564 8.4335938 22.740234 C 8.3085139 22.740234 8.2581872 22.66572 8.2832031 22.515625 C 10.634704 16.561826 12.811223 11.745706 14.8125 8.0683594 C 16.088314 5.791907 16.87559 4.1408888 17.175781 3.1152344 C 17.450957 2.1896438 17.175137 1.426555 16.349609 0.82617188 C 15.949354 0.51347236 15.550646 0.35039861 15.150391 0.33789062 z "
-         id="path4139" />
-    </g>
-  </g>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64.124px" height="65.207px" viewBox="0 0 64.124 65.207" enable-background="new 0 0 64.124 65.207" xml:space="preserve">
+<g>
+	<g>
+		<path fill="#212121" d="M45.17,49.385L39.299,38.46c-0.333-0.619-1.093-0.866-1.729-0.563l-15.262,7.291
+			c-0.252,0.121-0.46,0.317-0.593,0.565L12.33,63.215c-0.02,0.037-0.038,0.072-0.054,0.109c-0.08,0.172-0.126,0.361-0.126,0.564
+			c0,0.729,0.59,1.316,1.318,1.316h1.359c0.196,0,0.389-0.045,0.566-0.129l29.184-13.878c0.325-0.154,0.573-0.437,0.687-0.779
+			C45.375,50.076,45.341,49.703,45.17,49.385"/>
+		<path fill="#010202" d="M63.966,49.031l-6.703-12.465c-0.23-0.428-0.676-0.693-1.16-0.693H42.082
+			c-0.464,0-0.893,0.244-1.132,0.641c-0.237,0.4-0.249,0.896-0.029,1.303l13.709,25.506c0.23,0.428,0.677,0.691,1.161,0.691h1.953
+			c0.544,0,1.032-0.334,1.229-0.84l5.062-13.043C64.173,49.773,64.149,49.371,63.966,49.031"/>
+		<path fill="#010202" d="M31.285,0.693C31.056,0.266,30.609,0,30.124,0H28.17c-0.486,0-0.931,0.267-1.161,0.693L0.158,50.637
+			c-0.189,0.354-0.209,0.771-0.053,1.141l5.348,12.627c0.207,0.486,0.685,0.803,1.214,0.803h1.888c0.485,0,0.931-0.266,1.161-0.693
+			L37.32,13.168c0.209-0.391,0.209-0.857,0-1.248L31.285,0.693z"/>
+	</g>
+</g>
 </svg>
