@@ -9,12 +9,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32"
-   height="32"
+   width="64"
+   height="64"
    id="svg7384"
    version="1.1"
-   inkscape:version="0.91 r13725"
-   viewBox="0 0 32 32"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   viewBox="0 0 64 64"
    sodipodi:docname="haskell.svg">
   <defs
      id="defs7386" />
@@ -25,15 +25,15 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="11.197802"
-     inkscape:cx="8.9003924"
-     inkscape:cy="19.57213"
+     inkscape:zoom="5.6568543"
+     inkscape:cx="-54.946426"
+     inkscape:cy="17.736186"
      inkscape:current-layer="layer1"
      showgrid="true"
      inkscape:grid-bbox="true"
      inkscape:document-units="px"
-     inkscape:window-width="1366"
-     inkscape:window-height="717"
+     inkscape:window-width="1920"
+     inkscape:window-height="1026"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1" />
@@ -45,18 +45,24 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <g
      id="layer1"
      inkscape:label="Layer 1"
-     inkscape:groupmode="layer">
-    <path
-       id="path7419"
-       d="M 0.28729296,27.091323 7.681508,16.000001 0.28729296,4.9086767 l 5.54566134,0 7.3942147,11.0913243 -7.3942147,11.091322 -5.54566134,0 z m 7.39421504,0 7.394215,-11.091322 -7.394215,-11.0913243 5.545661,0 14.78843,22.1826463 -5.54566,0 -4.620696,-6.931732 -4.622074,6.931732 -5.545661,0 z m 24.029819,-6.470628 -6.161386,0 -2.464278,-3.697108 8.627044,0 z m 0,-5.545662 -9.858494,0 -2.464278,-3.697109 12.324152,0 z"
-       inkscape:connector-curvature="0"
-       style="fill:#000000" />
+     inkscape:groupmode="layer"
+     transform="translate(0,32)">
+    <g
+       id="g4142"
+       transform="matrix(2.0361724,0,0,2.0361724,-0.578759,-64.578759)">
+      <path
+         style="fill:#000000;fill-opacity:1;stroke-width:2.03617239"
+         d="M 0.00585938,9.4160156 15.0625,32 0.00585938,54.583984 H 11.298828 L 26.353516,32 11.298828,9.4160156 Z m 15.05664062,0 L 30.117188,32 15.0625,54.583984 H 26.353516 L 35.765625,40.46875 45.173828,54.583984 H 56.466797 L 26.353516,9.4160156 Z m 23.837891,13.1718754 5.017578,7.529297 h 20.072265 l 0.0039,-7.529297 z m 7.527343,11.292968 5.017578,7.527344 h 12.544922 l 0.0039,-7.527344 z"
+         transform="matrix(0.49111755,0,0,0.49111755,0.2842387,0.2842387)"
+         id="path4140"
+         inkscape:connector-curvature="0" />
+    </g>
   </g>
 </svg>
