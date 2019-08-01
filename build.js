@@ -29,6 +29,7 @@ function options(extension = 'css') {
     fontName: name,
     cssFontsUrl: isScss ? '#{$da-font-path}' : '../fonts',
 
+    codepoints: codepoints,
     css: true,
     html: true,
 
