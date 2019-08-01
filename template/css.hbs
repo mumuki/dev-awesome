@@ -1,3 +1,7 @@
+{{#if isScss}}
+$da-font-path: "../fonts" !default;
+{{/if}}
+
 @font-face {
 	font-family: "{{fontName}}";
 	src: {{{src}}};
@@ -10,9 +14,9 @@
 }
 
 .{{baseSelector}}:before {
-	font-family: {{fontName}} !important;
+	font-family: {{fontName}};
 	font-style: normal;
-	font-weight: normal !important;
+	font-weight: normal;
 	vertical-align: top;
 }
 
@@ -24,6 +28,10 @@
 .{{../classPrefix}}{{@key}}-c:before {
   content: "\2001";
   background-size: 100% 100%;
-  background-image: url("/dist/fonts/svg/colored/{{@key}}.svg");
+	{{#if ../isScss}}
+	background-image: url("#{$da-font-path}/svg/colored/{{@key}}.svg");
+	{{else}}
+	background-image: url("../fonts/svg/colored/{{@key}}.svg");
+	{{/if}}
 }
 {{/each}}
