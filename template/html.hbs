@@ -47,7 +47,6 @@
       .dev-awesome-icons-item:hover i {
         transform: scale(1.5);
       }
-
     </style>
 
     <link rel="stylesheet" type="text/css" href="./dist/css/dev-awesome.css">
@@ -68,30 +67,28 @@
 
     <h2>Usage</h2>
     <hr>
-    <pre><code class="html">&lt;i class=&quot;da <%= classPrefix %><span id="name">name</span>&quot;&gt;&lt;/i&gt;</code></pre>
+    <pre><code class="html">&lt;i class=&quot;da {{../classPrefix}}<span id="name">da-{name}</span>&quot;&gt;&lt;/i&gt;</code></pre>
 
     <h2>Icons</h2>
     <hr>
     <div class="row dev-awesome-icons" id="dev-awesome-icons">
-      <%for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) {%>
-      <%  var glyph = glyphs[glyphIdx]%>
-          <div class="ol-lg-2 col-md-3 col-sm-4 dev-awesome-icons-item" data-name="<%= glyph %>">
-            <i class="<%= baseClass %> <%= classPrefix %><%= glyph %>"></i>
-            <%= classPrefix %><%= glyph %>
+			{{#each names}}
+          <div class="ol-lg-2 col-md-3 col-sm-4 dev-awesome-icons-item" data-name="{{this}}">
+            <i class="{{../baseSelector}} {{../classPrefix}}{{this}}"></i>
+						{{../classPrefix}}{{this}}
           </div>
-      <%}%>
+			{{/each}}
     </div>
 
     <h2>Colored</h2>
     <hr>
     <div class="row dev-awesome-icons" id="dev-awesome-icons-colored">
-      <%for (var glyphIdx = 0; glyphIdx < glyphs.length; glyphIdx++) {%>
-      <%  var glyph = glyphs[glyphIdx]%>
-          <div class="ol-lg-2 col-md-3 col-sm-4 dev-awesome-icons-item" data-name="<%= glyph %>-c">
-            <i class="<%= baseClass %> <%= classPrefix %><%= glyph %>-c"></i>
-            <%= classPrefix %><%= glyph %>-c
+			{{#each names}}
+          <div class="ol-lg-2 col-md-3 col-sm-4 dev-awesome-icons-item" data-name="{{this}}">
+            <i class="{{../baseSelector}} {{../classPrefix}}{{this}}-c"></i>
+						{{../classPrefix}}{{this}}-c
           </div>
-      <%}%>
+			{{/each}}
     </div>
 
     <footer>
@@ -103,7 +100,7 @@
         var call = function(e) {
           e = e || window.event;
           var name = e.target.getAttribute('data-name') || e.target.parentNode.getAttribute('data-name');
-          document.getElementById('name').innerHTML = name;
+          document.getElementById('name').innerHTML = 'da-' + name;
         }
         document.getElementById('dev-awesome-icons').onclick = call;
         document.getElementById('dev-awesome-icons-colored').onclick = call;
