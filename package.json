@@ -1,6 +1,6 @@
 {
   "name": "dev-awesome",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Font and CSS for developers icons",
   "scripts": {
     "install": "node build.js",
