@@ -12,7 +12,7 @@ const svgFontFolder = path.resolve(svgFolder, 'black');
 const templateFolder = path.resolve('template');
 
 const svgFileNames = fs.readdirSync(svgFontFolder);
-const codepoints = fs.readFileSync(path.resolve('codepoints.json'));
+const codepoints = JSON.parse(fs.readFileSync(path.resolve('codepoints.json'), 'utf8'));
 const coloredSvgFolder = path.resolve(fontsFolder, 'svg', 'colored');
 
 del.sync(distFolder);
