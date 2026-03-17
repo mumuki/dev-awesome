@@ -1,55 +1,98 @@
 # DevAwesome
 
-DevAwesome brings an awesome set of programming language icons.
+DevAwesome brings an awesome set of programming language icons as React components.
 This project contains glyphs derived from [DevIcons](http://vorillaz.github.io/devicons) and is inspired by [FontAwesome](http://fontawesome.io).
 
-## Install it
+## Install
 
 ```sh
-bower install --save dev-awesome
+npm install dev-awesome
 ```
 
-## Use it
+React 17+ is required as a peer dependency.
 
-```html
-<html>
-  <head>
-    <link rel="stylesheet" type="text/css" href="bower_components/dev-awesome/dist/dev-awesome.css">
-  </head>
-  <body>
-    <i class="da da-haskell"></i>
-  </body>
-</html>
+## Usage
 
+### Basic
+
+```tsx
+import { PythonIcon } from 'dev-awesome';
+
+export default function App() {
+  return <PythonIcon />;
+}
 ```
+
+### Colored variant
+
+Each icon ships in a monochrome (`black`, default) and a `colored` variant.
+
+```tsx
+import { JavascriptIcon, HaskellIcon } from 'dev-awesome';
+
+<JavascriptIcon variant="colored" />
+<HaskellIcon variant="colored" />
+```
+
+### Size
+
+Use the `size` prop to set width and height uniformly (default: `32`).
+
+```tsx
+<PythonIcon size={64} />
+```
+
+You can also pass explicit `width` and `height` SVG attributes, which take precedence over `size`.
+
+```tsx
+<PythonIcon width={80} height={80} />
+```
+
+### Styling
+
+All standard SVG props are forwarded, including `className`, `style`, `aria-label`, etc.
+
+```tsx
+<PythonIcon className="my-icon" style={{ opacity: 0.8 }} aria-label="Python" />
+```
+
+### Available icons
+
+| Component | Language / Tool |
+|---|---|
+| `BashIcon` | Bash |
+| `CIcon` | C |
+| `CodeIcon` | Generic code |
+| `CppIcon` | C++ |
+| `CssIcon` | CSS |
+| `ElixirIcon` | Elixir |
+| `GobstonesIcon` | Gobstones |
+| `HaskellIcon` | Haskell |
+| `HtmlIcon` | HTML |
+| `JavaIcon` | Java |
+| `JavascriptIcon` | JavaScript |
+| `MumukiCircleIcon` | Mumuki (circle) |
+| `MumukiIcon` | Mumuki |
+| `PhpIcon` | PHP |
+| `PrologIcon` | Prolog |
+| `PythonIcon` | Python |
+| `QsimIcon` | QSim |
+| `RIcon` | R |
+| `RubyIcon` | Ruby |
+| `SqlIcon` | SQL |
+| `TextIcon` | Plain text |
+| `WollokIcon` | Wollok |
 
 ## Contribute
 
-#### What you need?
-
-You need to install:
-
-* Last version of `FontForge`
-
-```bash
-sudo add-apt-repository ppa:fontforge/fontforge
-sudo apt-get update
-sudo apt-get install fontforge
-```
-
-* `Grunt`
-
-```bash
-npm install -g grunt-cli
-```
-
-#### Steps
-
 1. Fork this repository.
-1. Add a 32x32 colored svg icon into `svg/colored` folder.
-1. Add a 32x32 black svg icon into `svg/black` folder.
-1. Send PR to our `master` branch.
+2. Add a 32x32 colored SVG icon into `svg/colored/`.
+3. Add a 32x32 black SVG icon into `svg/black/`.
+4. Export the new component in `src/icons/index.tsx`.
+5. Send a PR to `master`.
 
-**Notes**:
-* If you need to test locally you can run `grunt build` and an `index.html` in root.
-* PR with changes in `dist` or `index.html` folder will be closed.
+To run tests locally:
+
+```sh
+npm test
+```
